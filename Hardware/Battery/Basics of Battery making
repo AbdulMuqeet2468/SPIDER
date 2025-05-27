@@ -1,0 +1,33 @@
+**Understanding Battery Basics**
+When designing or choosing a battery, it is required to know the basic parameters that defines it's performance. 
+
+DISCLAIMER: Handle all the batteries with care. Make sure to wrap insulation at the ends while soldering! Do not short circuit them!
+
+*Types of Batteries:*
+
+1) Li-ion (Lithium ion Cells):
+  - They have a rigid outer structure with high energy density and stable output.
+  - has long cycle, commonly used in laptops, mobile phones etc
+  - Nominal voltage: 3.7V per cell
+
+2) LiPo (Lithium Polymer):
+  - Flexible (not very rigid) and lightweight with very high energy density
+  - High discharge rate
+  - Sensitive to over charging and discharging
+  - Nominal voltage: 3.7V per cell
+
+3) NiMH (Nickel Metal Hydride):
+  - Safer and less expensive but heavier and lower energy density.
+  - Nominal voltage: 1.2V per cell.
+
+4) Lead-Acid:
+  - Common in automotive and backup power systems.
+  - Heavy and bulky but inexpensive and robust.
+  - Nominal voltage: 2V per cell.
+
+etc etc...
+
+#battery images to be placed
+
+*Voltage* : The potential difference of a single cell, usually 3.7V
+Voltage increases if cells are connected in series. example: if 3 cells are connected in series => output voltage = 3 x 3.7V = 11.1V
