@@ -1,4 +1,14 @@
+'''
+*Static Inverse Kinematics Test*
+Main logic using trignometry method is implemented in this program for a 3 DOF arm.
+User gives input of (x,y,z) coordinates, and the function returns theta_c, theta_f and theta_ti angle values in degrees.
+
+Author: M Abdul Muqeet
+'''
+
 import math
+
+#Change values according to the hardware/design
 coxa = 7
 femur = 9
 tibia = 11
@@ -19,8 +29,9 @@ def invkin(x,y,z):
     #equivalent x coordinate
     x_new = math.sqrt(x1**2 + y1**2)
 
-    print("(x,y) = (",x,y,")")
-    print("(x1,y1) = (",x1,y1,")")
+    
+    print("(x,y) = (",x,y,")") #actual input
+    print("(x1,y1) = (",x1,y1,")") #equivalent side plane coordinates
     print(f"theta_c ={theta_c:.2f}")
 
     #w.r.t side view plane
