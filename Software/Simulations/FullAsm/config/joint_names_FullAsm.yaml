@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'R1_coxa_joint', 'R1_femur_joint', 'R1_tibia_joint', 'R2_coxa_joint', 'R2_femur_joint', 'R2_tibia_joint', 'L1_coxa_joint', 'L1_femur_joint', 'L1_tibia_joint', 'L2_coxa_joint', 'L2_femur_joint', 'L2_tibia_joint', ]
