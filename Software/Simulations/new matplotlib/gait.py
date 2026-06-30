@@ -69,9 +69,6 @@ class GaitController:
         phase_increment : how much phase advances per frame.
                           Defaults to PHASE_INCREMENT from config.py,
                           which is derived from STEP (1/STEP).
-                          A full gait cycle then takes exactly STEP frames
-                          at speed=1.0 — same idea as your original
-                          "for n in range(step+1)" loop, just continuous now.
                           Scaled by self.speed.
         """
         if phase_increment is None:

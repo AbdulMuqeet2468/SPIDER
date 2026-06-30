@@ -1,6 +1,5 @@
 # ============================================================
-#   kinematics.py  —  Pure math. No hardware. No state.
-#   Test this file standalone before touching anything else.
+#   kinematics.py  —  Does the math thingy
 # ============================================================
 
 import math

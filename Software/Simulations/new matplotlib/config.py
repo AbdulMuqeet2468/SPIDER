@@ -15,11 +15,9 @@ STEP_HEIGHT  = 5       # how high the foot lifts during swing (cm)
 GROUND_LEVEL = -10     # z height of foot when on ground (cm)
 
 #   STEP = how many discrete increments make up ONE FULL gait cycle
-#   (this is the same "step" from the original matplotlib code,
-#   now repurposed to define motion resolution instead of a raw loop counter)
 #   Higher STEP  → finer motion, smoother but slower to complete a cycle
 #   Lower  STEP  → coarser motion, faster but choppier
-STEP = 78
+STEP = 100
  
 #   Derived: how much phase (0.0 -> 1.0) advances per frame at normal speed
 #   One full cycle (phase 0 -> 1) takes exactly STEP frames to complete
@@ -43,7 +41,7 @@ LEG_BASES = {
     'L2': [-SIDE/2, -SIDE/2, 0],
 }
 
-# ── Reach center for each leg (x_center in your original code) ──
+# ── Reach center for each leg (x_center in matplotlib code) ──
 #   How far forward the leg reaches from its base
 LEG_REACH = {
     'R1':  12,

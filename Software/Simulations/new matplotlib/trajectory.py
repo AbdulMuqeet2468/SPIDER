@@ -1,10 +1,8 @@
 # ============================================================
-#   trajectory.py  —  Foot path math. No hardware. No state.
-#
+#   trajectory.py  —  Foot path math
 #   KEY IDEA: Everything uses phase (0.0 → 1.0)
-#   instead of a raw counter (0 → 78).
 #
-#   0.0 ──────── 0.6 ──────── 1.0
+#   0.0 ──────── 0.7 ──────── 1.0
 #   |   STANCE   |   SWING   |
 #   foot on ground           foot in air
 # ============================================================
@@ -14,8 +12,8 @@ import numpy as np
 from config import STEP_LENGTH, STEP_HEIGHT, GROUND_LEVEL
 
 
-STANCE_RATIO = 0.6      # 60% of cycle = stance (foot on ground)
-SWING_RATIO  = 0.4      # 40% of cycle = swing  (foot in air)
+STANCE_RATIO = 0.7      # 70% of cycle = stance (foot on ground)
+SWING_RATIO  = 0.3      # 30% of cycle = swing  (foot in air)
 
 
 def get_foot_position(phase, theta_rotation_deg, x_center):

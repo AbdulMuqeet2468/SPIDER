@@ -1,14 +1,12 @@
 # ============================================================
-#   leg.py  —  One leg, fully self-contained.
-#
+#   leg.py —  One leg of the spider
 #   Each Leg object owns:
 #     - its base position on the body
 #     - its current phase in the gait cycle
 #     - its trail (for visualisation)
 #     - a goto_point() method  ← the one function you command
 #
-#   To move to real hardware later: only change goto_point().
-#   Everything else stays the same.
+#   To move to real hardware : only change goto_point().
 # ============================================================
 
 from kinematics import invkin, forward_positions

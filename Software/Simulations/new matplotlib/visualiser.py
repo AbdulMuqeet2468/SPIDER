@@ -3,7 +3,7 @@
 #
 #   Reads joint angles from Leg objects and draws.
 #   Zero logic here — pure rendering.
-#   Swap this file out entirely when moving to CoppeliaSim.
+#   Delete this file and replace with CoppeliaSim code if you want to move to real hardware.
 # ============================================================
 
 import math

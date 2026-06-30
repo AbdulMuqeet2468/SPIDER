@@ -1,8 +1,6 @@
 # ============================================================
 #   main.py  —  Entry point. Wires all modules together.
 #
-#   This is the ONLY file you run:  python3 main.py
-#
 #   To change behaviour:
 #     - Walking speed / step size  →  config.py
 #     - Gait pattern               →  config.py  (GAIT_PHASES)
